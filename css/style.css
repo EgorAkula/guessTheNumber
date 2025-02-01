@@ -1,0 +1,55 @@
+html, body {
+    font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin: 5px 0;
+}
+
+.item button {
+    margin-left: 5px;
+}
+
+.mainText {
+    color: darkviolet;
+}
+
+.SideText {
+    color: darkviolet;
+}
+
+.container {
+    border: 2px solid darkviolet;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.btn {
+    outline: none;
+    border-radius: 0px;
+    border: 2px solid darkviolet;
+    color: snow;
+    background: darkviolet;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+#name {
+    border-color: darkviolet;
+}
+
+#msg {
+    color: darkviolet;
+}
